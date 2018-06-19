@@ -6,5 +6,11 @@
             "email": "kostenkoam1212@gmail.com"
         }
     ],
-    "require": {}
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\DesignPatterns\\": "src/"
+        }
+    }
 }
