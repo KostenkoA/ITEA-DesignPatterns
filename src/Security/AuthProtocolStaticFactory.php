@@ -15,4 +15,16 @@ final class AuthProtocolStaticFactory
         }
         throw new \LogicException('Unknown auth protocol');
     }
+
+    //AbstractFactory
+
+    public function creaeteAuthProtocolV1()
+    {
+        return new AuthProtocolV1();
+    }
+
+    public function createAuthProtocolV2()
+    {
+        return new AuthProtocolV2();
+    }
 }
