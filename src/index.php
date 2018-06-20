@@ -10,3 +10,6 @@ $v1->authenticate();
 
 $v2 = AuthProtocolStaticFactory::factory('AUTH-V2');
 $v2->authenticate();
+
+$v3 = new AuthProtocolStaticFactory();
+var_dump($v3->creaeteAuthProtocolV1());
